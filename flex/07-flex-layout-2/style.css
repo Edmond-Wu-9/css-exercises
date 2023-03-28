@@ -27,13 +27,29 @@ body {
 }
 
 .sidebar {
-  min-width: 300px;
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
   background: royalblue;
   box-sizing: border-box;
 }
 
 .sidebar ul{
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+li{
+  margin-bottom: 16px;
+}
+
+a{
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+
 }
 
 .card {
@@ -49,4 +65,12 @@ article{
 
 .content{
   display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
 }
